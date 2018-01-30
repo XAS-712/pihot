@@ -11,4 +11,5 @@ CPU温度会打印到控制台。同时，其他的一些数据（例如RAM、�
 ### 啥？你说`python3 pihot.py`太麻烦？？？
 执行`echo alias hot=\'python3 ~/pihot/pihot.py\' >> .bashrc`
 
+以后每次运行只需要输入`hot`即可
 (前提是你已经把代码仓库放在了用户主目录下面，即`pihot.py`就在`~/pihot/pihot.py`的位置)
