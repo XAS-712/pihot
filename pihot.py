@@ -2,7 +2,7 @@ import os
                                 
 def getCPUtemperature():
     res = os.popen('cat /sys/class/thermal/thermal_zone0/temp').readline()
-    return(int(res.replace("temp=","").replace("'C\n","")))
+    return(int(res))
     
 def getRAMinfo():
     p = os.popen('free')
